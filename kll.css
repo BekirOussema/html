@@ -1,0 +1,172 @@
+@charset "utf-8";
+
+/* ------ GENERAL ------ */
+body h2{
+	font-family:calibri;
+	font-size:12px;
+	padding:0px;
+	margin:0px;
+	}
+
+.container {
+	width:960px;
+	margin:0px auto;
+	background-color:#FFF;
+    }
+	
+/* ------ EN-TETE ------ */
+
+header {
+	position:relative;
+	width:960px;
+	height:150px;
+	}
+.logo {
+	position:absolute;
+	top:30px;
+	left:20px;}
+
+.connexion {
+	position:absolute;
+	top:18px;
+	left:840px;
+	width:120px;
+	height:140px;
+	}
+
+.mc_title {
+	position:absolute;
+	color:#333;
+	font-weight:bold;
+	font-size:14px;
+	top:7px;
+	left:5px;
+	}
+.mc_login {
+	position:absolute;
+	color:#666;
+	font-size:13px;
+	top:33px;
+	left:5px;
+	}
+.mc_login input {
+	width:100px;
+	height:12px;
+	margin-left:0px;
+	font-size:10px;
+	}
+#mc_password {
+	position:absolute;
+	color:#666;
+	font-size:13px;
+	top:70px;
+	left:5px;
+	}
+#mc_password input {
+	width:100px;
+	height:12px;
+	font-size:10px;
+	}
+#mc_bouton {
+	position:absolute;
+	top:108px;
+	left:43px;
+	}
+.mc_btn_sub{
+	height:20px;
+	width:67px;
+	padding:0px;
+	text-align:right;
+	color:#333;
+	background:#FFF;
+	font-size:12px;
+	border:0px;
+	cursor:pointer;
+	}
+/* ------ MENU NAVIGATION ------ */
+.main_nav {
+	position:relative;
+	width:960px;
+	height:35px;
+	background:#b53502;
+	}
+.menu {
+	margin:0px;
+	padding:0px;
+	list-style-type:none;}
+.menu li {
+	float:left;
+	display:inline;
+	border-right:1px #FFF solid;
+	}
+.menu li a {
+	display:block;
+	width:191px;
+	line-height:35px;
+	text-decoration:none;
+	font-size:15px;
+	font-weight:bold;
+	color:#FFF;
+	text-align:center;
+}
+.menu li a:hover {
+	background-color:#ed0063;
+}
+
+/* ------ COL LEFT ------ */
+
+.coln_left {
+	position:absolute;
+	width:190px;
+	background:#FFF;
+	}
+
+.vertival_menu {
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+	}
+.vertival_menu li {
+    float:left;
+	display:block;
+	background:#0970B3;
+	margin-top:2px;
+}
+.vertival_menu li a {
+	display:block;
+	width:180px;
+	line-height:35px;
+	text-decoration:none;
+	font-size:15px;
+	font-weight:bold;
+	color:#FFF;
+	padding-left:10px;
+}
+.vertival_menu li a:hover {
+	background-color:#003E6B;
+	width:175px;
+	padding-left:15px;
+}
+.vertival_menu #current_page a {
+	background-color:#003E6B;
+	width:175px;
+	padding-left:15px;
+}
+
+/* ------ SECTION ------ */
+.section {
+	position:relative;
+	width:960px;
+	height:800px;
+	padding: 10px 0px 0px 0px;
+	background-color:#FFF;
+	}
+
+/* ------ FOOTER ------ */
+
+.footer h2 {
+	position:relative;
+	width:960px;
+	height:100px;
+	background-color:#00226b;
+	}
