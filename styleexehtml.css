@@ -1,0 +1,19 @@
+{
+    font-family: "Helvetica", Sans-Serif;
+    background-image url("../images/background-image.jpeg");
+  }
+  
+  a { <h1>
+      color: #112d4e;
+        }
+
+  
+  .profile-small {<h1>
+      height:150px;
+      border-radius: 50%;
+      border: 10px solid #FEDE00;
+      </h1>
+  }
+h2{
+background-color: blue;/*.coler name.*/
+}
